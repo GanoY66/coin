@@ -13,7 +13,7 @@ print(pyfiglet.figlet_format("aminocoingenerator", font="rectangles"))
 THIS_FOLDER = path.dirname(path.abspath(__file__))
 emails = path.join(THIS_FOLDER, 'g1')
 deviceIdfile = path.join(THIS_FOLDER, "device")
-emails = open(emails, "r")
+emails = open(/sdcard/g1, "r")
 print("""[1] Generate Coins
 [2] Transfer Coins of All Accounts""")
 theselect = input("Type the Number >> ")
